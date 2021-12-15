@@ -1,3 +1,6 @@
+#install tessercat from this link : "https://github.com/UB-Mannheim/tesseract/wiki"
+#Install this exe in C:\Program Files\Tesseract- OCR
+
 import cv2
 import pytesseract
 pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files/Tesseract-OCR/tesseract.exe'  # your path may be different

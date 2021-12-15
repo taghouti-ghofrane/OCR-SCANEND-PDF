@@ -1,7 +1,7 @@
 #insatll poppler and write the path in poppler_path
 #link:https://blog.alivate.com.au/poppler-windows/
 from pdf2image import convert_from_path  
-pdfs = r"path_scanned_pdf.pdf"
+pdfs = r"scansmpl.pdf"
 pages = convert_from_path(pdfs, 350 , poppler_path=r'C:\Program Files\poppler-0.68.0\bin')
 print(pages)
 i = 1
